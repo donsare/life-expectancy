@@ -1,0 +1,8 @@
+Flask
+streamlit
+pytz
+datetime
+scikit-learn
+joblib
+numpy==1.26.4
+catboost

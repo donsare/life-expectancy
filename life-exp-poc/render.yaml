@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: leprediction-api
+    env: python
+    buildCommand: "pip install -r environment/requirements.txt"
+    startCommand: "python app/api/app.py"
+    envVars:
+      - key: PORT
+        value: 5000
+
+  - type: web
+    name: streamlit-app
+    env: python
+    buildCommand: pip install -r environment/requirements.txt
+    startCommand: streamlit run app/api/streamlit_app.py --server.port $PORT
+    plan: free
