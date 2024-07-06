@@ -92,7 +92,7 @@ def main():
         if (AdultM <= 0 or HIV <= 0 or BMI <= 0 or Diph <= 0 or GDP <= 0 or Schooling <= 0 or Thin5_9Yrs <= 0 or Alcohol <= 0 or Polio <= 0):
             st.error("All input values must be greater than zero.")
         else:
-            url = "https://leprediction.onrender.com/predict_life_expectancy"
+            url = "https://life-expectancy-flask-app.onrender.com/predict_life_expectancy"
             data = {
                 "AdultM": AdultM,
                 "HIV": HIV,
