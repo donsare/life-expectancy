@@ -26,6 +26,4 @@ py -3 -m pip install -r environment/requirements.txt
 
 Alternatively, you can install `Anaconda Distribution` for your particular platform [anaconda](https://www.anaconda.com/).
 
-## Acknowledgments
 
-[*Brian Aholi*](https://www.linkedin.com/in/brianaholi)
